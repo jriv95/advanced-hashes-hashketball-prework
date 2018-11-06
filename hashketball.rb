@@ -188,29 +188,3 @@ def big_shoe_rebounds
   end
   rebound
 end
-
-
-# def big_shoe_rebounds
-#   largest_shoe_player = player_with_largest_shoe
-#   game_hash.each do |location, attributes|
-#     attributes[:players].each do |name, stats|
-#       if name == largest_shoe_player
-#         return stats[:rebounds]
-#       end
-#     end
-#   end
-# end
-#
-# def player_with_largest_shoe
-#   largest_shoe = 0
-#   biggest_shoe = 0
-#   game_hash.each do |location, attributes|
-#     attributes[:players].each do |name, stats|
-#       if largest_shoe == 0 || stats[:shoe] > largest_shoe
-#         largest_shoe = stats[:shoe]
-#         biggest_shoe = name
-#       end
-#     end
-#   end
-#   biggest_shoe
-# end
